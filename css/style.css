@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	background: #F5F5F5;
+}
+
+/* ----------------- Cabeçalho*/
+
+.titulos{
+	background: rgb(62, 182, 252);
+	color: white;
+	padding: 15px;
+	font-weight: 600;
+	font-family: 'inter', arial, sans-serif;
+}
+
+/* ----------------- Perguntas e respostas*/
+
+.title, .pergunta{
+	padding-top: 10px;
+	margin-left: 20px;
+	font-family: 'inter', arial, sans-serif;
+}
+
+.title{
+	font-size: 9px;
+}
+
+.resposta{
+	font-size: 15px;
+	font-family: 'Lato', arial, sans-serif;
+}
+
+/*------------- Rodape*/
+
+.rodape{
+	font-size: 11px;
+	text-align: center;
+	margin: 150px 0 0 0px;
+	font-family: 'inter', arial, sans-serif;
+}
+
+.rodape > a{
+	text-decoration: none;
+}
+
+.rodape > a:hover{
+	text-decoration: underline;
+	color: rgb(62, 182, 252);;
+}
+
+/* ---------------- Outras telas*/
+
+@media only screen and (max-width: 768px){
+	.titulos{
+		max-width: 100%;
+		font-size: 28px;
+	}
+
+	.title{
+		max-width: 100%;
+	}
+
+	.rodape{
+		font-size: 12px;
+		margin: 70px 0 0 0;
+	}
+}
